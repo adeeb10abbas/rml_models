@@ -1,5 +1,0 @@
-model = resnet18-noisy-outer
-dropout = 0.5
-data = ../data/2016.10a.h5
-noise = {'std': 1, 'mean': 2}
-cfo = {'std': 1, 'mean': 2}
