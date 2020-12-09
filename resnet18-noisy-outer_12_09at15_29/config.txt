@@ -1,0 +1,5 @@
+model = resnet18-noisy-outer
+dropout = 0.5
+data = data/2016.10a.h5
+noise = {'std': 60, 'mean': 80}
+cfo = {'std': 0.3, 'mean': 0}
