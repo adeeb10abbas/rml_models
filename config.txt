@@ -1,0 +1,5 @@
+model = cldnn
+dropout = 0.5
+data = data/2016.10a.h5
+noise = {'std': 80, 'mean': 30}
+cfo = {'std': 0.1, 'mean': 0}
