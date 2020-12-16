@@ -1,0 +1,5 @@
+model = resnet18-gasf
+dropout = 0.5
+data = data/2016.10a.h5
+noise = {'std': 0, 'mean': 0}
+cfo = {'std': 0, 'mean': 0}
